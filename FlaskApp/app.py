@@ -13,7 +13,7 @@ def showSignUp():
 def signUp():
 	# read the posted values from UI
 	_name = request.form['inputName']
-	_email = requst.form['inputEmail']
+	_email = request.form['inputEmail']
 	_password = request.form['inputPassword']
 
 	# validate the received values
